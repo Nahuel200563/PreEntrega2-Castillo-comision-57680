@@ -151,7 +151,7 @@ body {
 
 .videoTres {
         background-color: rgb(29, 29, 29);
-        
+        align-self:center;
         width: 232px;
         height: 164px;
         grid-column-start: 5;
@@ -217,6 +217,250 @@ body {
         text-align: center;     
         margin: 0;
         text-align: justify;
+}
+
+
+@media (max-width:1090px) { 
+        
+        .textoInicio h1 {
+                font-size: 5.25rem;
+        }
+
+        .textoInicio {
+                display: flex;
+        }
+
+        .Taylor-estrella  {
+                width: 26.6875rem; 
+                height: 16.5625rem ;
+        }
+
+        .tituloTaylor {
+                counter-reset: a;
+        }  
+
+        .videoTaylor div h2 {
+                font-size: 2rem;
+        }
+
+        .videoTaylor div p {
+                font-size: 1.25rem;
+        }
+
+        .cuadrado {
+                width: 100%;
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                grid-template-rows: auto;
+                justify-items: center;
+                align-items: center;
+                padding: 1rem;
+                text-align: center;
+        }
+
+
+}
+
+@media (max-width:801px) {
+
+        .videoTaylor div iframe {
+                padding-top: .625rem;
+                width: 31.25rem;
+                height: 15.9375rem;
+        }
+
+        .tituloTaylor p {
+                font-size: 0.875rem;
+        }
+
+        .Taylor-estrella  {
+                width: 21.6875rem; 
+                height: 11.5625rem ;
+        }
+
+        .encabezadoIndex li a {
+                font-size: 1.475rem;
+        }
+
+        .cuadrado {
+                display: grid;
+                grid-template-columns: repeat(4,12.5rem);
+                grid-template-rows: repeat(4,12.5rem);
+                align-content: center;
+                justify-content: center;
+                padding-bottom: 26px ;
+                background-color: rgba(0, 0, 0, 0.712); /*  Esto esta dudoso, cambiar color?  */
+                border-bottom-left-radius: 3.125rem;
+                border-bottom-right-radius: 3.125rem;
+        }
+        
+
+        .cuadrado h2 {
+                font-size: 2.125rem;
+                grid-column-start: 2;
+                grid-column-end: 4; 
+                grid-row-start: 1 ;
+                grid-row-end: 2 ;
+        }
+
+        .videoUno {
+                width: 60%; /* Reduce el tamaño de los videos al 60% del contenedor padre */
+                max-width: 12rem; /* Limita el tamaño máximo de los videos */
+                margin: 1rem auto; /* Centra los videos horizontalmente y añade margen */
+                display: block;
+                height: auto;
+                grid-column-start: 2;
+                grid-column-end: 4; 
+                grid-row-start: 3 ;
+                grid-row-end: 4 ;
+        }
+        
+        .videoDos {
+                width: 60%;
+                max-width: 12rem;
+                margin: 1rem auto; 
+                display: block;
+                height: auto;
+                grid-row-start: 4;
+                grid-row-end: 5; 
+                grid-column-start: 2;
+                grid-column-end: 4; 
+        }
+        
+        .videoTres {
+                width: 60%; 
+                max-width: 12rem; 
+                margin: 1rem auto; 
+                display: block;
+                height: auto;
+                grid-column-start: 2;
+                grid-column-end: 4; 
+        }
+
+        .videoTaylor div iframe {
+                padding-top: .625rem;
+                width: 21.25rem;
+                height: 15.9375rem;
+        }
+
+}
+
+@media (max-width:691px) {
+
+        .Taylor-estrella {
+                width: 11.6875rem; 
+                height: 8.5625rem ;
+        }
+
+        .textoInicio h1 {
+                font-size: 3.25rem;
+        }
+
+        .circulos {
+                display: flex;
+                flex-direction: column; 
+                padding: 2.3125rem;
+        }
+
+        .circulo1 {
+                width: 15.125rem;
+                height: 15.125rem;
+                padding-bottom: .3125rem;
+        }
+
+        .circulo2 {
+                width: 15.125rem;
+                height: 15.125rem;
+        }
+
+        .videoTaylor {
+                flex-direction: column;
+        }
+}
+
+@media (max-width:691px) {
+
+        .textoInicio h1 {
+                display: none;
+        }
+        .encabezadoIndex li:nth-child(1) { 
+                display: none;
+        }
+        .encabezadoIndex li:nth-child(2) { 
+                display: none;
+        }
+        .encabezadoIndex li:nth-child(4) { 
+                display: none;
+        }
+        .encabezadoIndex li:nth-child(5) { 
+                display: none;
+        }
+        .taylorGrande {
+                display: block;
+        }
+        .Taylor-estrella {
+                display: block; 
+                margin-left: 30%; 
+                justify-self: center; 
+                align-self: center; 
+                width: 18.6875rem; 
+                height: 13.5625rem ;
+                }
+}
+
+@media (max-width:400px) {
+
+        .Taylor-estrella {
+                width: 16.6875rem; 
+                height: 11.5625rem ;
+        }
+
+        .videoTaylor div iframe {
+                padding-top: .625rem;
+                width: 18.25rem;
+                height: 12.9375rem;
+        }
+        .cuadrado {
+                display: grid;
+                grid-template-columns: repeat(1,12.5rem);
+                grid-template-rows: repeat(4,12.5rem);
+        }
+
+        .cuadrado h2 {
+                grid-column-start: 1;
+                grid-column-end: 2;
+                font-size: 1.475rem;
+        }
+
+        .videoUno {
+                grid-column-start: 1;
+                grid-column-end: 2; 
+        }
+        
+        .videoDos { 
+                grid-column-start: 1;
+                grid-column-end: 2; 
+        }
+        
+        .videoTres {
+                grid-column-start: 1;
+                grid-column-end: 2; 
+        }
+
+        .videoTaylor div iframe {
+                padding: 0;
+                padding-top: 1.3125rem;
+        }
+
+        .videoTaylor div h2 {
+                font-size: 1.875rem;
+                margin: 0;
+        }
+        .videoTaylor div p {
+                font-size: .875rem;
+                padding-right: 2.3125rem;
+        }
+
 }
 
 /* CAMBIO DE PAGINA, ¡¡¡¡¡HISTORIA!!!!!  */
@@ -321,6 +565,161 @@ body {
         grid-row-end: 4 ;
         align-self: center;
         justify-self: center;
+}
+
+
+@media (max-width:1220px) {
+
+        .introHistoria div {
+                grid-template-columns:repeat(4 ,10.5rem);
+                grid-template-rows:repeat(3 ,10.5rem);
+        }
+        .tituloHistoria {
+                grid-column-start: 1 ;
+                grid-column-end: 3 ; 
+                grid-row-start: 1 ;
+                grid-row-end: 2 ;
+        }
+        .img1989 {
+                grid-column-start: 1 ;
+                grid-column-end: 3 ; 
+                grid-row-start: 2 ;
+                grid-row-end: 4 ;
+        }
+        .texUnoHistoria {
+                font-size: .8125rem;
+                grid-column-start: 3 ;
+                grid-column-end: 5 ; 
+                grid-row-start: 2 ;
+                grid-row-end: 4 ;
+                justify-content: center;
+                align-content: center;
+                padding: 0;
+        }
+
+        .tituloHistoria2 {
+                padding: auto;
+                margin: 0%;
+        }
+
+        .texDosHistoria {
+                font-size: 1.30rem;
+        }
+
+        .textoTresHistoria {
+                font-size: 1.20rem;
+                margin-right: 0px;
+                margin-left: 8.25rem;
+        }
+
+        .img1989Dos {
+                width: 176px;
+                height: 287px;
+        }
+
+}
+
+@media (max-width:850px) {
+
+        .img1989Dos {
+                display: none;
+        }
+
+        .textoTresHistoria {
+                font-size: 1.20rem;
+                margin: 0%;
+                padding-left: 40%;
+        }
+
+        .historiaDos {
+                display: flex;
+                flex-direction: column;
+        }
+
+        .tituloHistoria2 {
+                font-size: 2rem;
+                padding: 0;
+                margin: 0;
+                justify-content: center;
+                align-items: center;
+                align-self: center;
+        }
+
+        .texDosHistoria {
+                justify-content: center;
+                align-items: center;
+                width: 80%;
+                font-size: 1.2rem;
+                padding: 0;
+                margin: 0;
+                padding-right: 0;
+                
+        }
+
+
+}
+
+@media (max-width:690px) {
+
+        .introHistoria div {
+                display: grid;
+                grid-template-columns:repeat(4 ,10.5rem);
+                grid-template-rows:repeat(5 ,10.5rem);
+                background-color: rgba(0, 0, 0, 0.582);
+                justify-content: center;
+        }
+
+        .tituloHistoria {
+                grid-column-start: 2 ;
+                grid-column-end: 4 ; 
+                grid-row-start: 1 ;
+                grid-row-end: 2 ;
+        }
+        .img1989 {
+                grid-column-start: 2 ;
+                grid-column-end: 4 ; 
+                grid-row-start: 2 ;
+                grid-row-end: 3 ;
+        }
+        .texUnoHistoria {     
+                padding: 0;
+                margin: 0;
+                grid-column-start: 2 ;
+                grid-column-end: 4 ; 
+                grid-row-start: 4 ;
+                grid-row-end: 6 ;
+        }
+}
+
+@media (max-width:505px) {
+
+        .HistoriaTres {
+                display: grid;
+                grid-template-columns:repeat(2 ,10.5rem);
+                grid-template-rows:repeat(3 ,10.5rem);
+                background-color: rgba(0, 0, 0, 0.582);
+                justify-content: center;
+        }
+
+        .textoTresHistoria {
+                font-size: 1rem;
+                padding: 0;
+                margin: 0;
+                grid-column-start: 1 ;
+                grid-column-end: 3 ; 
+                grid-row-start: 1 ;
+                grid-row-end: 4 ;
+                
+        }
+
+        .tituloHistoria {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                
+        }
+
 }
 
 /* CAMBIO DE PAGINA, ¡¡¡¡¡Discografia!!!!!  */
@@ -985,6 +1384,7 @@ body {
 
 .premios1-2 {
         display: grid;
+        justify-content: center;
         grid-template-columns: repeat(8 ,9.53rem);
         grid-template-rows: repeat(2 ,6rem);
         border-top-left-radius: 1.25rem ;
@@ -1056,6 +1456,7 @@ body {
 
 .premios3-4 {
         display: grid;
+        justify-content: center;
         grid-template-columns: repeat(8 ,9.53rem);
         grid-template-rows: repeat(2 ,6rem);
         border-top-left-radius: 1.25rem ;
@@ -1126,6 +1527,7 @@ body {
 
 .premios5-6 {
         display: grid;
+        justify-content: center;
         grid-template-columns: repeat(8 ,9.53rem);
         grid-template-rows: repeat(2 ,6rem);
         border-top-left-radius: 1.25rem ;
