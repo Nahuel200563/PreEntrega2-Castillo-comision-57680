@@ -1,0 +1,1192 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+body {
+        background-image: url(../assets/img/Fondo2.jpg);
+        background-color: grey;
+        background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat; 
+}
+
+.encabezadoIndex { 
+        display: flex;
+        background-color: rgb(0, 0, 0); 
+        width: 100%;
+        height: 60px;        
+        align-items: center;
+        justify-content: space-around;
+}
+
+.encabezadoIndex li a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 30px
+        
+}
+
+.encabezadoIndex li:nth-child(3) a {
+        font-weight: bold;
+        font-size: 3.125rem;
+}
+
+
+.textoInicio{
+        background-color: rgba(0, 0, 0, 0.712);
+        border-bottom-left-radius :50px;
+        border-bottom-right-radius: 50px;
+        justify-content:spa;
+        display: flex;
+        padding-right: 134px
+}
+
+.textoInicio h1 {
+        font-size: 108px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 36.8px;
+        padding-left: 164.8px;
+        color: white;
+}
+
+
+.iconosRedes ul  {
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.795);
+        border:none;
+        /* border-radius: 0rem 0rem 52px 52px; */
+        text-align: center;
+        justify-content: space-around;
+        list-style-type: none;
+        flex-direction: row;
+        padding: 0, 0, 80px, 80px;  
+        margin: 0;
+}
+
+.iconosRedes ul li img {
+        max-width: 1.875rem;
+        max-height: 1.875rem;
+}
+
+.videoTaylor {
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.712);
+        align-items: center
+}
+
+.videoTaylor div iframe {
+        padding-left: 40px;
+}
+
+.videoTaylor div h2 {
+        font-size: 2.5rem;
+        color: white;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 1.25rem;
+} 
+
+.videoTaylor div p {
+        padding-left: 20px;
+        font-size: 30px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: center;
+        text-align: justify;
+}
+
+.cuadrado {
+        display: grid;
+        grid-template-columns: repeat(5,12.5rem);
+        grid-template-rows: repeat(2,12.5rem);
+        align-content: center;
+        justify-content: center;
+        padding-bottom: 26px ;
+        background-color: rgba(0, 0, 0, 0.712); /*  Esto esta dudoso, cambiar color?  */
+        border-bottom-left-radius: 3.125rem;
+        border-bottom-right-radius: 3.125rem;
+}
+
+.cuadrado h2 {
+        grid-column-start: 2;
+        grid-column-end: 5; 
+        grid-row-start: 1 ;
+        grid-row-end: 2 ;
+        text-align: center;
+        font-size: 46px;
+        align-self: center;
+        color: white;
+}
+
+.videoUno {
+        background-color: rgb(29, 29, 29);
+        width: 248px;
+        height: 180px;
+        grid-column-start: 3;
+        grid-column-end: 4; 
+        grid-row-start: 2 ;
+        grid-row-end: 3 ;
+}
+
+.videoDos {
+        background-color: rgb(29, 29, 29);
+        width: 232px;
+        height: 164px;
+        grid-column-start: 1;
+        grid-column-end: 2; 
+        grid-row-start: 2 ;
+        grid-row-end: 3 ;
+        align-self: end;
+}
+
+.videoTres {
+        background-color: rgb(29, 29, 29);
+        
+        width: 232px;
+        height: 164px;
+        grid-column-start: 5;
+        grid-column-end: 6; 
+        grid-row-start: 2 ;
+        grid-row-end: 3 ;
+        align-self: end;
+}
+/* .cuadrado {
+        box-sizing: border-box;
+        grid-template-columns: repeat(3,12.5rem);
+        grid-template-rows:repeat(1,12.5rem);
+        justify-content: center;
+        align-content:center;
+        display: grid;
+        width: 246px;           Ancho de 150 píxeles 
+        height: 150px;          Alto de 150 píxeles 
+        background: rgb(0, 0, 0);        Fondo de color rojo 
+        border: .0625rem solid #000; Borde color negro y de 1 píxel de grosor  */
+
+.circulos {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 1.875rem;
+        padding-top: 1.25rem;
+}
+
+.circulo1 {
+        width: 20rem;
+        height: 20rem;
+        background-color: rgb(49, 49, 49);
+        border-radius: 50%;
+}
+
+.circulo2  {
+        width: 20rem;
+        height: 20rem;
+        background-color: rgb(49, 49, 49);
+        border-radius: 50%;
+}
+
+
+.tituloTaylor {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        width: 90%;
+        padding-left: 10%;
+}
+
+.tituloTaylor h2 {
+        font-size: 44px;
+        text-align: center;
+}
+
+.tituloTaylor p {
+        font-size: 1.25rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;   
+        text-align: center;     
+        margin: 0;
+        text-align: justify;
+}
+
+/* CAMBIO DE PAGINA, ¡¡¡¡¡HISTORIA!!!!!  */
+
+
+.introHistoria div {
+        display: grid;
+        grid-template-columns:repeat(7 ,10.5rem);
+        grid-template-rows:repeat(3 ,10.5rem);
+        background-color: rgba(0, 0, 0, 0.582);
+        justify-content: center;
+}
+
+.tituloHistoria {
+        color: #ffffff;
+        font-size: 4.875rem;
+        grid-column-start: 1;
+        grid-column-end: 4; 
+        grid-row-start: 1 ;
+        grid-row-end: 2 ;
+        align-self: end;
+        justify-self: center;
+}
+
+.img1989 {
+        grid-column-start: 1;
+        grid-column-end: 4; 
+        grid-row-start: 2 ;
+        grid-row-end: 4 ;
+        align-items: end;
+        justify-self: center;
+}
+
+.texUnoHistoria {
+        color: white;
+        grid-column-start: 4;
+        grid-column-end: 8; 
+        grid-row-start: 1 ;
+        grid-row-end: 4 ;
+        justify-self: center;
+        align-self: center;
+        font-size: 1.25rem;
+        padding-top: 4rem;
+        text-align: justify;
+}
+
+.historiaDos {
+        display: grid;
+        grid-template-columns: repeat(5 ,10.5rem);
+        grid-template-rows: repeat(3 ,10.5rem);
+        align-items: center;
+        justify-content: center;
+}
+
+.tituloHistoria2 {
+        color: white;
+        font-size: 2.875rem;
+        grid-column-start: 1;
+        grid-column-end: 6; 
+        grid-row-start: 1 ;
+        grid-row-end: 2 ;
+        align-self: end;
+        justify-self: center;
+        padding-bottom: .5125rem;
+}
+
+.texDosHistoria {
+        color: white;
+        font-size: 1.5625rem;
+        text-align:  justify    ;
+        grid-column-start: 1;
+        grid-column-end: 6; 
+        grid-row-start: 2 ;
+        grid-row-end: 4 ;
+}
+
+.HistoriaTres {
+        display: grid;
+        grid-template-columns:repeat(7 ,10.5rem);
+        grid-template-rows:repeat(3 ,10.5rem);
+        background-color: rgba(0, 0, 0, 0.582);
+        justify-content: center;
+}
+
+.textoTresHistoria {
+        color: rgb(255, 255, 255);
+        font-size: 1.40rem;
+        text-align: justify;
+        grid-column-start: 1;
+        grid-column-end: 6; 
+        grid-row-start: 1 ;
+        grid-row-end: 4 ;
+        padding-right: 4.25rem;
+        align-self: center;
+        justify-self: center;
+}
+
+.img1989Dos {
+        grid-column-start: 5 ;
+        grid-column-end: 8 ; 
+        grid-row-start: 1 ;
+        grid-row-end: 4 ;
+        align-self: center;
+        justify-self: center;
+}
+
+/* CAMBIO DE PAGINA, ¡¡¡¡¡Discografia!!!!!  */
+
+.TituloDisc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 3.5rem;
+        background-color: rgba(0, 0, 0, 0.733);
+        margin: 1.25rem;
+        width: 50vh;
+        justify-content: center;
+        align-items: center;
+}
+
+
+.disc1-2 {
+        display: grid;
+        background-color: hsla(0, 0%, 0%, 0.507);
+        margin: 1.25rem;
+        border-top-left-radius: 1.25rem ;
+        border-top-right-radius: 1.25rem;
+        border-bottom-left-radius: 1.25rem ;
+        border-bottom-right-radius: 1.25rem;
+        grid-template-columns: repeat(8 ,9.53rem);
+        grid-template-rows: repeat(2 ,11rem);
+        justify-content: center;
+}
+
+.textDiscUno {
+        grid-column-start: 1;
+        grid-column-end: 3; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        font-size: 1.60rem;
+        align-self: center;
+        text-align: right;
+        padding-right: .3125rem;
+        color: white;
+}
+
+.imgDiscUno {
+        grid-column-start: 3;
+        grid-column-end: 5; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        align-self: center;
+        justify-self: end;
+        padding-right: .3125rem;
+}
+
+.textDiscDos {
+        grid-column-start: 7;
+        grid-column-end: 9; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        align-self: center;
+        font-size: 1.60rem;
+        padding-left: .3125rem;
+        color: white;
+}
+
+
+.imgDiscDos {
+        grid-column-start: 5;
+        grid-column-end: 7; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        align-self: center;
+        padding-left: .3125rem;
+}
+
+/* separador */
+
+.disc3-4 {
+        display: grid;
+        background-color: hsla(0, 0%, 0%, 0.507);
+        margin: 1.25rem;
+        border-top-left-radius: 1.25rem ;
+        border-top-right-radius: 1.25rem;
+        border-bottom-left-radius: 1.25rem ;
+        border-bottom-right-radius: 1.25rem;
+        grid-template-columns: repeat(8 ,9.53rem);
+        grid-template-rows: repeat(2 ,11rem);
+        justify-content: center;
+}
+
+.textDiscTres {
+        grid-column-start: 1;
+        grid-column-end: 3; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        font-size: 1.60rem;
+        align-self: center;
+        text-align: right;
+        padding-right: .3125rem;
+        color: white;
+}
+
+.imgDiscTres {
+        grid-column-start: 3;
+        grid-column-end: 5; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        align-self: center;
+        justify-self: end;
+        padding-right: .3125rem;
+}
+
+.textDiscCua {
+        grid-column-start: 7;
+        grid-column-end: 9; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        align-self: center;
+        font-size: 1.60rem;
+        padding-left: .3125rem;
+        color: white;
+}
+
+
+.imgDiscCua {
+        grid-column-start: 5;
+        grid-column-end: 7; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        align-self: center;
+        padding-left: .3125rem;
+}
+
+/* Separador */
+
+.disc5-6 {
+        display: grid;
+        background-color: hsla(0, 0%, 0%, 0.507);
+        margin: 1.25rem;
+        border-top-left-radius: 1.25rem ;
+        border-top-right-radius: 1.25rem;
+        border-bottom-left-radius: 1.25rem ;
+        border-bottom-right-radius: 1.25rem;
+        grid-template-columns: repeat(8 ,9.53rem);
+        grid-template-rows: repeat(2 ,11rem);
+        justify-content: center;
+}
+
+.textDiscCin {
+        grid-column-start: 1;
+        grid-column-end: 3; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        font-size: 1.60rem;
+        align-self: center;
+        text-align: right;
+        padding-right: .3125rem;
+        color: white;
+}
+
+.imgDiscCin {
+        grid-column-start: 3;
+        grid-column-end: 5; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        align-self: center;
+        justify-self: end;
+        padding-right: .3125rem;
+}
+
+.textDiscSei {
+        grid-column-start: 7;
+        grid-column-end: 9; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        align-self: center;
+        font-size: 1.60rem;
+        padding-left: .3125rem;
+        color: white;
+}
+
+
+.imgDiscSei {
+        grid-column-start: 5;
+        grid-column-end: 7; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        align-self: center;
+        padding-left: .3125rem;
+}
+
+/* Separador */
+
+.disc7-8 {
+        display: grid;
+        background-color: hsla(0, 0%, 0%, 0.507);
+        margin: 1.25rem;
+        border-top-left-radius: 1.25rem ;
+        border-top-right-radius: 1.25rem;
+        border-bottom-left-radius: 1.25rem ;
+        border-bottom-right-radius: 1.25rem;
+        grid-template-columns: repeat(8 ,9.53rem);
+        grid-template-rows: repeat(2 ,11rem);
+        justify-content: center;
+}
+
+.textDiscSie {
+        grid-column-start: 1;
+        grid-column-end: 3; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        font-size: 1.60rem;
+        align-self: center;
+        text-align: right;
+        padding-right: .3125rem;
+        color: white;
+}
+
+.imgDiscSie {
+        grid-column-start: 3;
+        grid-column-end: 5; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        align-self: center;
+        justify-self: end;
+        padding-right: .3125rem;
+}
+
+.textDiscOch {
+        grid-column-start: 7;
+        grid-column-end: 9; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        align-self: center;
+        font-size: 1.60rem;
+        padding-left: .3125rem;
+        color: white;
+}
+
+
+.imgDiscOch {
+        grid-column-start: 5;
+        grid-column-end: 7; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        align-self: center;
+        padding-left: .3125rem;
+}
+
+/* Separador */
+
+.disc9-10 {
+        display: grid;
+        background-color: hsla(0, 0%, 0%, 0.507);
+        margin: 1.25rem;
+        border-top-left-radius: 1.25rem ;
+        border-top-right-radius: 1.25rem;
+        border-bottom-left-radius: 1.25rem ;
+        border-bottom-right-radius: 1.25rem;
+        grid-template-columns: repeat(8 ,9.53rem);
+        grid-template-rows: repeat(2 ,11rem);
+        justify-content: center;
+}
+
+.textDiscNue {
+        grid-column-start: 1;
+        grid-column-end: 3; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        font-size: 1.60rem;
+        align-self: center;
+        text-align: right;
+        padding-right: .3125rem;
+        color: white;
+}
+
+.imgDiscNue {
+        grid-column-start: 3;
+        grid-column-end: 5; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        align-self: center;
+        justify-self: end;
+        padding-right: .3125rem;
+}
+
+.textDiscDie {
+        grid-column-start: 7;
+        grid-column-end: 9; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        align-self: center;
+        font-size: 1.60rem;
+        padding-left: .3125rem;
+        color: white;
+}
+
+
+.imgDiscDie {
+        grid-column-start: 5;
+        grid-column-end: 7; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        align-self: center;
+        padding-left: .3125rem;
+}
+
+/* Separador */
+
+.disc11 {
+        display: grid;
+        background-color: hsla(0, 0%, 0%, 0.507);
+        margin: 1.25rem;
+        border-top-left-radius: 1.25rem ;
+        border-top-right-radius: 1.25rem;
+        border-bottom-left-radius: 1.25rem ;
+        border-bottom-right-radius: 1.25rem;
+        grid-template-columns: repeat(8 ,9.53rem);
+        grid-template-rows: repeat(2 ,11rem);
+        justify-content: center;
+}
+
+.textDiscOnc {
+        grid-column-start: 3;
+        grid-column-end: 5; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        font-size: 1.60rem;
+        align-self: center;
+        text-align: right;
+        padding-right: .3125rem;
+        color: white;
+}
+
+.imgDiscOnc {
+        grid-column-start: 5;
+        grid-column-end: 7; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        align-self: center;
+        justify-self: end;
+        padding-left: .3125rem;
+}
+
+/* CAMBIO DE PAGINA, ¡¡¡¡¡Discografia!!!!!  */
+
+.tituloConcierto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 3.5rem;
+        background-color: rgba(0, 0, 0, 0.733);
+        margin: 1.25rem;
+        width: 50vh;
+        justify-content: center;
+        align-items: center;
+}
+
+.secConc1 {
+        display: grid;
+        background-color: rgba(0, 0, 0, 0.5);
+        grid-template-columns: repeat(8 ,9.53rem);
+        grid-template-rows: repeat(2 ,11rem);
+        border-top-left-radius: 1.25rem ;
+        border-top-right-radius: 1.25rem;
+        border-bottom-left-radius: 1.25rem ;
+        border-bottom-right-radius: 1.25rem;
+        margin: 1.25rem; 
+}
+
+.Conc1 {
+        grid-column-start: 1;
+        grid-column-end: 4; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        justify-self: center;
+        margin-top: .5375rem;
+        font-size: 1.70rem;
+        color: white;
+}
+
+.imgConc1 {
+        grid-column-start: 1;
+        grid-column-end: 4; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        justify-self: center;
+        align-self: end;
+        margin-bottom: .625rem;
+}
+
+.texConc1 {
+        grid-column-start: 4;
+        grid-column-end: 9; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        justify-self: center;
+        align-self: center;
+        font-size: 1.60rem;
+        color: white;
+        text-align: justify;
+}
+
+/* Separador */
+
+.secConc2 {
+        display: grid;
+        background-color: rgba(0, 0, 0, 0.5);
+        grid-template-columns: repeat(8 ,9.53rem);
+        grid-template-rows: repeat(2 ,11rem);
+        border-top-left-radius: 1.25rem ;
+        border-top-right-radius: 1.25rem;
+        border-bottom-left-radius: 1.25rem ;
+        border-bottom-right-radius: 1.25rem;
+        margin: 1.25rem; 
+}
+
+.Conc2 {
+        grid-column-start: 6;
+        grid-column-end: 9; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        justify-self: center;
+        margin-top: .5375rem;
+        font-size: 1.70rem;
+        color: white;
+}
+
+.imgConc2 {
+        grid-column-start: 6;
+        grid-column-end: 9; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        justify-self: center;
+        align-self: end;
+        margin-bottom: .625rem;
+}
+
+.texConc2 {
+        grid-column-start: 1;
+        grid-column-end: 6; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        justify-self: center;
+        align-self: center;
+        font-size: 1.60rem;
+        color: white;
+        padding-left: 2.3125rem;
+        text-align: justify;
+}
+
+/* Separador */
+
+.secConc3 {
+        display: grid;
+        background-color: rgba(0, 0, 0, 0.5);
+        grid-template-columns: repeat(8 ,9.53rem);
+        grid-template-rows: repeat(2 ,11rem);
+        border-top-left-radius: 1.25rem ;
+        border-top-right-radius: 1.25rem;
+        border-bottom-left-radius: 1.25rem ;
+        border-bottom-right-radius: 1.25rem;
+        margin: 1.25rem; 
+}
+
+.Conc3 {
+        grid-column-start: 1;
+        grid-column-end: 4; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        justify-self: center;
+        margin-top: .5375rem;
+        font-size: 1.70rem;
+        color: white;
+}
+
+.imgConc3 {
+        grid-column-start: 1;
+        grid-column-end: 4; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        justify-self: center;
+        align-self: end;
+        margin-bottom: .625rem;
+}
+
+.texConc3 {
+        grid-column-start: 4;
+        grid-column-end: 9; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        justify-self: center;
+        align-self: center;
+        font-size: 1.60rem;
+        color: white;
+        text-align: justify;
+}
+
+/* Separador */
+
+.secConc4 {
+        display: grid;
+        background-color: rgba(0, 0, 0, 0.5);
+        grid-template-columns: repeat(8 ,9.53rem);
+        grid-template-rows: repeat(2 ,11rem);
+        border-top-left-radius: 1.25rem ;
+        border-top-right-radius: 1.25rem;
+        border-bottom-left-radius: 1.25rem ;
+        border-bottom-right-radius: 1.25rem;
+        margin: 1.25rem; 
+}
+
+.Conc4 {
+        grid-column-start: 6;
+        grid-column-end: 9; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        justify-self: center;
+        margin-top: .5375rem;
+        font-size: 1.70rem;
+        color: white;
+}
+
+.imgConc4 {
+        grid-column-start: 6;
+        grid-column-end: 9; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        justify-self: center;
+        align-self: end;
+        margin-bottom: .625rem;
+}
+
+.texConc4 {
+        grid-column-start: 1;
+        grid-column-end: 6; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        justify-self: center;
+        align-self: center;
+        font-size: 1.60rem;
+        color: white;
+        padding-left: 2.3125rem;
+        text-align: justify;
+}
+
+/* Separador */
+
+.secConc5 {
+        display: grid;
+        background-color: rgba(0, 0, 0, 0.5);
+        grid-template-columns: repeat(8 ,9.53rem);
+        grid-template-rows: repeat(2 ,11rem);
+        border-top-left-radius: 1.25rem ;
+        border-top-right-radius: 1.25rem;
+        border-bottom-left-radius: 1.25rem ;
+        border-bottom-right-radius: 1.25rem;
+        margin: 1.25rem; 
+}
+
+.Conc5 {
+        grid-column-start: 1;
+        grid-column-end: 4; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        justify-self: center;
+        margin-top: .5375rem;
+        font-size: 1.70rem;
+        color: white;
+}
+
+.imgConc5 {
+        grid-column-start: 1;
+        grid-column-end: 4; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        justify-self: center;
+        align-self: end;
+        margin-bottom: .625rem;
+}
+
+.texConc5 {
+        grid-column-start: 4;
+        grid-column-end: 9; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        justify-self: center;
+        align-self: center;
+        font-size: 1.60rem;
+        color: white;
+        text-align: justify;
+}
+
+/* Separador */
+
+.secConc6 {
+        display: grid;
+        background-color: rgba(0, 0, 0, 0.5);
+        grid-template-columns: repeat(8 ,9.53rem);
+        grid-template-rows: repeat(2 ,11rem);
+        border-top-left-radius: 1.25rem ;
+        border-top-right-radius: 1.25rem;
+        border-bottom-left-radius: 1.25rem ;
+        border-bottom-right-radius: 1.25rem;
+        margin: 1.25rem; 
+}
+
+.Conc6 {
+        grid-column-start: 6;
+        grid-column-end: 9; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        justify-self: center;
+        margin-top: .5375rem;
+        font-size: 1.70rem;
+        color: white;
+}
+
+.imgConc6 {
+        grid-column-start: 6;
+        grid-column-end: 9; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        justify-self: center;
+        align-self: end;
+        margin-bottom: .625rem;
+}
+
+.texConc6 {
+        grid-column-start: 1;
+        grid-column-end: 6; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        justify-self: center;
+        align-self: center;
+        font-size: 1.60rem;
+        color: white;
+        padding-left: 2.3125rem;
+        text-align: justify;
+}
+
+/* CAMBIO DE PAGINA, ¡¡¡¡¡Premios!!!!!  */
+
+.mainPremio {
+        background-color: rgba(0, 0, 0, 0.514);
+        border-radius: 2.25rem;
+}
+
+.tituloPremio  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 3.5rem;
+        background-color: rgba(0, 0, 0, 0.733);
+        margin: 1.25rem;
+        width: 50vh;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1.25rem;
+}       
+
+.premios1-2 {
+        display: grid;
+        grid-template-columns: repeat(8 ,9.53rem);
+        grid-template-rows: repeat(2 ,6rem);
+        border-top-left-radius: 1.25rem ;
+        border-top-right-radius: 1.25rem;
+        border-bottom-left-radius: 1.25rem ;
+        border-bottom-right-radius: 1.25rem;
+        margin: 1.25rem; 
+}
+
+.premioUno {
+        grid-column-start: 1;
+        grid-column-end: 6; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        justify-self: start;
+        align-self: star;
+        font-size: 2rem;
+        color: white;
+        padding-left: 2.3125rem;
+        text-align: justify;
+        margin-right: .625rem;
+}
+
+.texPremioUno {
+        grid-column-start: 1;
+        grid-column-end: 5; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        justify-self: center;
+        align-self: flex-end;
+        font-size: 1.50rem;
+        color: white;
+        padding-left: 2.3125rem;
+        text-align: justify;
+        margin-right: .625rem;
+}
+
+.premioDos {
+        grid-column-start: 5;
+        grid-column-end: 9; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        justify-self: start;
+        align-self: star;
+        font-size: 2rem;
+        color: white;
+        padding-left: 2.3125rem;
+        text-align: justify;
+        margin-right: .625rem;
+}
+
+.texPremioDos {
+        grid-column-start: 5;
+        grid-column-end: 9; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        justify-self: center;
+        align-self: flex-end;
+        font-size: 1.50rem;
+        color: white;
+        padding-left: 2.3125rem;
+        text-align: justify;
+        margin-right: .625rem;
+}
+
+
+
+/* Separador */
+
+.premios3-4 {
+        display: grid;
+        grid-template-columns: repeat(8 ,9.53rem);
+        grid-template-rows: repeat(2 ,6rem);
+        border-top-left-radius: 1.25rem ;
+        border-top-right-radius: 1.25rem;
+        border-bottom-left-radius: 1.25rem ;
+        border-bottom-right-radius: 1.25rem;
+        margin: 1.25rem; 
+}
+
+.premioTre {
+        grid-column-start: 1;
+        grid-column-end: 6; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        justify-self: start;
+        align-self: star;
+        font-size: 2rem;
+        color: white;
+        padding-left: 2.3125rem;
+        text-align: justify;
+        margin-right: .625rem;
+}
+
+.texPremioTre {
+        grid-column-start: 1;
+        grid-column-end: 5; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        justify-self: center;
+        align-self: flex-end;
+        font-size: 1.50rem;
+        color: white;
+        padding-left: 2.3125rem;
+        text-align: justify;
+        margin-right: .625rem;
+}
+
+.premioCua {
+        grid-column-start: 5;
+        grid-column-end: 9; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        justify-self: start;
+        align-self: star;
+        font-size: 2rem;
+        color: white;
+        padding-left: 2.3125rem;
+        text-align: justify;
+        margin-right: .625rem;
+}
+
+.texPremioCua {
+        grid-column-start: 5;
+        grid-column-end: 9; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        justify-self: center;
+        align-self: flex-end;
+        font-size: 1.50rem;
+        color: white;
+        padding-left: 2.3125rem;
+        text-align: justify;
+        margin-right: .625rem;
+}
+
+
+/* Separador */
+
+.premios5-6 {
+        display: grid;
+        grid-template-columns: repeat(8 ,9.53rem);
+        grid-template-rows: repeat(2 ,6rem);
+        border-top-left-radius: 1.25rem ;
+        border-top-right-radius: 1.25rem;
+        border-bottom-left-radius: 1.25rem ;
+        border-bottom-right-radius: 1.25rem;
+        margin: 1.25rem; 
+}
+
+.premioCin {
+        grid-column-start: 1;
+        grid-column-end: 6; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        justify-self: start;
+        align-self: star;
+        font-size: 2rem;
+        color: white;
+        padding-left: 2.3125rem;
+        text-align: justify;
+        margin-right: .625rem;
+}
+
+.texPremioCin {
+        grid-column-start: 1;
+        grid-column-end: 5; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        justify-self: center;
+        align-self: flex-end;
+        font-size: 1.50rem;
+        color: white;
+        padding-left: 2.3125rem;
+        text-align: justify;
+        margin-right: .625rem;
+}
+
+.premioSei {
+        grid-column-start: 5;
+        grid-column-end: 9; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        justify-self: start;
+        align-self: star;
+        font-size: 2rem;
+        color: white;
+        padding-left: 2.3125rem;
+        text-align: justify;
+        margin-right: .625rem;
+}
+
+.texPremioSei {
+        grid-column-start: 5;
+        grid-column-end: 9; 
+        grid-row-start: 1 ;
+        grid-row-end: 3 ;
+        justify-self: center;
+        align-self: flex-end;
+        font-size: 1.50rem;
+        color: white;
+        padding-left: 2.3125rem;
+        text-align: justify;
+        margin-right: .625rem;
+}
