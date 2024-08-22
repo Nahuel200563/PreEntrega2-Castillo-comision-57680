@@ -1,0 +1,45 @@
+.cuadrado {
+    display: grid;
+    grid-template-columns: repeat(5,12.5rem);
+    grid-template-rows: repeat(2,12.5rem);
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 26px ;
+    background-color: $ColorFondo;
+    border-bottom-left-radius: 3.125rem;
+    border-bottom-right-radius: 3.125rem;
+
+    h2 {
+        @include Grids (2, 5, 1, 2);
+        text-align:center;
+        font-size: 40px;
+        align-self:center ;
+        color: white;
+    } 
+}
+
+.videoUno {
+    @include Grids (3, 4, 2, 3) ;
+    width: 248px;
+    height: 180px;
+    -webkit-animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.videoDos {
+    @include Grids (1, 2, 2, 3);
+    width: 248px;
+    height: 180px;
+    align-self: end;
+    -webkit-animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.videoTres {
+    @include Grids (5, 6, 2, 3) ;
+    width: 248px;
+    height: 180px;
+    -webkit-animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+

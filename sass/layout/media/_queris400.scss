@@ -1,0 +1,62 @@
+
+@media (max-width:400px) {
+
+    .Taylor-estrella {
+            width: 16.6875rem; 
+            height: 11.5625rem ;
+    }
+
+        .videoTaylor div iframe {
+        padding-top: .625rem;
+            width: 22.25rem;
+            height: 16.9375rem;
+            padding-left: 2.625rem;
+    }
+    .cuadrado {
+            display: grid;
+            grid-template-columns: repeat(1,12.5rem);
+            grid-template-rows: repeat(4,12.5rem);
+    }
+
+    .cuadrado h2 {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            font-size: 1.475rem;
+    }
+
+    .videoUno {
+            grid-column-start: 1;
+            grid-column-end: 2; 
+            width: 60%; 
+            max-width: 12rem; 
+            
+    }
+    
+    .videoDos { 
+            grid-column-start: 1;
+            grid-column-end: 2; 
+    }
+    
+    .videoTres {
+            grid-column-start: 1;
+            grid-column-end: 2; 
+    }
+
+    .videoTaylor div iframe {
+            padding: 0;
+            padding: 1.3125rem;
+            padding-left: 1.925rem;
+            width: 18.25rem;
+            height: 12.9375rem;
+    }
+
+    .videoTaylor div h2 {
+            font-size: 1.875rem;
+            margin: 0;
+    }
+    .videoTaylor div p {
+            font-size: .875rem;
+            padding-right: 2.3125rem;
+    }
+
+}

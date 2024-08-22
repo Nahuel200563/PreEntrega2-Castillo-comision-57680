@@ -1,0 +1,49 @@
+@media (max-width: 1200px) {
+
+    .premios1-2, .premios3-4, .premios5-6 {
+        grid-template-columns: repeat(7 ,9.53rem);
+        grid-template-rows: repeat(2 ,6rem);
+    }
+
+.premioUno,.premioTre, .premioCin,.premioDos, .premioCua, .premioSei  {
+    font-size: 1.70rem;
+
+}
+
+.texPremioUno, .texPremioTre, .texPremioCin, .texPremioDos, .texPremioCua, .texPremioSei {
+    font-size: 1.30rem;
+    width: 90%;
+}
+}
+
+.premios1-2, .premios3-4, .premios5-6 {
+    grid-template-columns: repeat(7 ,9.53rem);
+    grid-template-rows: repeat(2 ,6rem);
+}
+
+.premioUno,.premioTre, .premioCin  {
+    @include Grids (1, 6, 1, 3);
+    justify-self: start;
+
+}
+
+.texPremioUno, .texPremioTre, .texPremioCin {
+    @include Grids (1, 4, 1, 3);
+    align-self: flex-end;
+}
+
+.premioDos, .premioCua, .premioSei  {
+    @include Grids (5, 8, 1, 3);
+    justify-self: start;
+
+}
+
+.texPremioDos, .texPremioCua, .texPremioSei  {
+    @include Grids (5, 8, 1, 3);
+    align-self: flex-end;
+}
+
+
+
+
+

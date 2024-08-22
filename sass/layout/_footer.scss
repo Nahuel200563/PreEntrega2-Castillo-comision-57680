@@ -1,0 +1,16 @@
+.iconosRedes ul {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.795);
+    border: none;
+    text-align: center;
+    justify-content: space-around;
+    list-style-type: none;
+    flex-direction: row;
+    padding: 0, 0, 80px, 80px;  
+    margin: 0;
+    
+    ul li img {
+        max-width: 1.875rem;
+        max-height: 1.875rem;
+    }
+    }

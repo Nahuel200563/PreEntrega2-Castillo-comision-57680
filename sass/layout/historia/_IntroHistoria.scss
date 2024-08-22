@@ -1,0 +1,38 @@
+.introHistoria div {
+    display: grid;
+    grid-template-columns:repeat(7 ,10.5rem);
+    grid-template-rows:repeat(3 ,10.5rem);
+    background-color: $ColorFondo;
+    justify-content: center;
+
+    h2{
+        @include Grids (1, 4, 1, 2);
+        color: white;
+        font-size: 4.875rem;
+        align-self: end;
+        justify-self: center;
+    }
+    img { 
+        @include Grids (1, 4, 2, 4);
+        align-items: end;
+        justify-self: center;
+    }
+    p {
+        @include Grids (4, 8, 1, 4);
+        color: white;
+        justify-self: center;
+        align-self: center;
+        font-size: 1.25rem;
+        padding-top: 4rem;
+        text-align: justify;
+    }
+}
+
+
+
+
+
+// introHistoria
+// tituloHistoria h2
+// img1989 img
+// texUnoHistoria p

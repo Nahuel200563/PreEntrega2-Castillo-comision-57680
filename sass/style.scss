@@ -1,0 +1,44 @@
+// utilities //  
+@import "./utilities/mixin";
+@import "./utilities/variables" ;
+@import "./utilities/keyframe";
+
+//bases//
+
+@import "./base/reset" ;
+
+//layout//
+
+@import "./layout/body";
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/index/Taylor" ;
+@import "./layout/index/Titulo";
+@import "./layout/index/VideoGrande";
+@import "./layout/index/VideosChicos" ;
+@import "./layout/index/Circulos";
+@import "./layout/historia/IntroHistoria";
+@import "./layout/historia/TVersion" ;
+@import "./layout/historia/TaylorHoy" ;
+@import "./layout/Discografia/albums";
+@import "./layout/Conciertos/Giras" ;
+@import "./layout/premios/premios";
+//componentes//
+
+//media queris//
+    @import "./layout/media/queris1090";
+    @import "./layout/media/queris801";
+    @import "./layout/media/queris691";
+    @import "./layout/media/queris400";
+    @import "./layout/media/HQueris1220";
+    @import "./layout/media/HQueris1130";
+    @import "./layout/media/HQueris1000";
+    @import "./layout/media/HQueris850";
+    @import "./layout/media/HQueris690";
+    @import "./layout/media/HQueris505";
+    @import "./layout/media/HQueris360";
+    @import "./layout/media/PQueris1200";
+    @import "./layout/media/PQueris1020";
+    @import "./layout/media/PQueris865";
+    @import "./layout/media/PQueris450";
+    @import "./layout/media/PQueris420"

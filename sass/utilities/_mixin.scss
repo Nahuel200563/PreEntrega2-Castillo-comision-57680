@@ -1,0 +1,20 @@
+
+
+@mixin estilosDeTexto ( $color, $display ,$justify, $aling, $width, $height, $font , $padding, $margin ) {
+    color: $color;
+    display: $display ;
+    justify-content: $justify ;
+    align-items: $aling ;
+    width: $width ;
+    height: $height ;
+    font-size: $font;
+    padding: $padding;
+    margin: $margin;
+}
+
+@mixin Grids ($columStart, $columEnd, $rowStart, $rowEnd) {
+grid-column-start:$columStart;
+grid-column-end: $columEnd; 
+grid-row-start: $rowStart ;
+grid-row-end: $rowEnd;
+}

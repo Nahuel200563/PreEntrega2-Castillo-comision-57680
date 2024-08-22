@@ -1,0 +1,29 @@
+@media (max-width: 865px) {
+
+.premios1-2, .premios3-4, .premios5-6 {
+    grid-template-columns: repeat(3 ,9.53rem);
+    grid-template-rows: repeat(4 ,6rem);
+    padding: .3125rem;
+}
+.premioUno,.premioTre, .premioCin  {
+    @include Grids (1, 4, 1, 3);
+    justify-self: center;
+    padding-top: .625rem;
+}
+.texPremioUno, .texPremioTre, .texPremioCin {
+    @include Grids (1, 4, 1, 3);
+    align-self: flex-end;
+}
+.premioDos, .premioCua, .premioSei  {
+    @include Grids (1, 4, 3, 5);
+    justify-self: center;
+    padding-top: .625rem;
+}
+.texPremioDos, .texPremioCua, .texPremioSei  {
+    @include Grids (1, 4, 3, 5);
+    align-self: flex-end;
+}
+
+}
+
+

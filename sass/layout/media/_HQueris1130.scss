@@ -1,0 +1,18 @@
+
+@media (max-width:1160px) {
+    .HistoriaTres {
+        grid-template-columns:repeat(6 ,10.5rem);
+        grid-template-rows:repeat(3 ,10.5rem);
+
+        .textoTresHistoria {
+            @include Grids (1, 5, 1, 4);
+            font-size: 1.20rem;
+        }
+        img {
+            width: 176px;
+            height: 287px;
+            @include Grids (5, 7, 1, 4);
+        }
+    }
+
+}

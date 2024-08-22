@@ -1,0 +1,15 @@
+
+.textoInicio{
+    background-color: rgba(0, 0, 0, 0.712);
+    border-bottom-left-radius :50px;
+    border-bottom-right-radius: 50px;
+    justify-content:spa;
+    display: flex;
+    padding-right: 134px
+}
+
+.textoInicio h1{
+    @include estilosDeTexto (white ,flex, center, center, none, none, 6.75rem, none, none  ) ;
+    padding-right: 36.8px;
+    padding-left: 164.8px;
+}

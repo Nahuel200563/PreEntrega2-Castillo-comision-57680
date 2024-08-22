@@ -1,0 +1,67 @@
+
+@media (max-width:691px) {
+
+    .Taylor-estrella {
+            width: 11.6875rem; 
+            height: 8.5625rem ;
+    }
+
+    .textoInicio h1 {
+            font-size: 3.25rem;
+    }
+
+    .circulos {
+            display: flex;
+            flex-direction: column; 
+            padding: 2.3125rem;
+    }
+
+    .circulo1 {
+            width: 15.125rem;
+            height: 15.125rem;
+            padding-bottom: .3125rem;
+    }
+
+    .circulo2 {
+            width: 15.125rem;
+            height: 15.125rem;
+    }
+
+    .videoTaylor {
+            flex-direction: column;
+            p{
+                padding-bottom: 2.25rem;
+            }
+    }
+
+    .cuadrado {
+        padding-top: 3.875rem;
+    } 
+
+.textoInicio h1 {
+    display: none;
+}
+.encabezadoIndex li:nth-child(1) { 
+    display: none;
+}
+.encabezadoIndex li:nth-child(2) { 
+    display: none;
+}
+.encabezadoIndex li:nth-child(4) { 
+    display: none;
+}
+.encabezadoIndex li:nth-child(5) { 
+    display: none;
+}
+.taylorGrande {
+    display: block;
+}
+.Taylor-estrella {
+    display: block; 
+    margin-left: 30%; 
+    justify-self: center; 
+    align-self: center; 
+    width: 18.6875rem; 
+    height: 13.5625rem ;
+    }
+}

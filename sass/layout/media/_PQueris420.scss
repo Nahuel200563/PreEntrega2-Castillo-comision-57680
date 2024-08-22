@@ -1,0 +1,19 @@
+@media (max-width: 420px) {
+
+    .premios1-2, .premios3-4, .premios5-6 {
+        grid-template-columns: repeat(2 ,9.53rem);
+        grid-template-rows: repeat(4 ,6rem);
+}
+
+.premioUno,.premioTre, .premioCin,.premioDos, .premioCua, .premioSei  {
+font-size: 23.2px;
+align-items: end;
+padding-top: 20px;
+}
+
+.texPremioUno, .texPremioTre, .texPremioCin, .texPremioDos, .texPremioCua, .texPremioSei {
+font-size: 16px;
+width: 90%;
+align-items: end;
+}
+}

@@ -1,0 +1,146 @@
+.tituloConcierto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3.5rem;
+    background-color: $ColorFondo;
+    margin: 1.25rem;
+    width: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+
+    .secConc1,.secConc2, .secConc3, .secConc4, .secConc5, .secConc6  {
+        display: grid;
+        background-color: $ColorFondo;
+        grid-template-columns: repeat(8 ,9.53rem);
+        grid-template-rows: repeat(2 ,11rem);
+        border-radius: 20px 20px 20px 20px;
+        margin: 1.25rem; 
+}
+
+.Conc1,.imgConc1,.texConc1 {
+        @include Grids (1, 4, 1, 3);
+        justify-self: center;
+        margin: .625rem;
+        color: white;
+}
+.Conc1 {
+        font-size: 1.70rem;
+}
+.imgConc1 {
+        align-self: end;
+}
+.texConc1 {
+    @include Grids (4, 9, 1, 3);
+        align-self: center;
+        font-size: 1.60rem;
+        text-align: justify;
+        padding-right: 2.3125rem;
+}
+
+/* Separador */
+.Conc2,.imgConc2,.texConc2 {
+    @include Grids (6, 9, 1, 3);
+    justify-self: center;
+    margin: .625rem;
+    color: white;
+}
+.Conc2 {
+    font-size: 1.70rem;
+}
+.imgConc2 {
+    align-self: end;
+}
+.texConc2 {
+@include Grids (1, 6, 1, 3);
+    align-self: center;
+    font-size: 1.60rem;
+    text-align: justify;
+    padding-left: 2.3125rem;
+}
+
+/* Separador */
+.Conc3,.imgConc3,.texConc3 {
+    @include Grids (1, 4, 1, 3);
+    justify-self: center;
+    margin: .625rem;
+    color: white;
+}
+.Conc3 {
+    font-size: 1.70rem;
+}
+.imgConc3 {
+    align-self: end;
+}
+.texConc3 {
+@include Grids (4, 9, 1, 3);
+    align-self: center;
+    font-size: 1.60rem;
+    text-align: justify;
+    padding-right: 2.3125rem;
+}
+
+/* Separador */
+.Conc4,.imgConc4,.texConc4 {
+@include Grids (6, 9, 1, 3);
+justify-self: center;
+margin: .625rem;
+color: white;
+}
+.Conc4 {
+font-size: 1.70rem;
+}
+.imgConc4 {
+align-self: end;
+}
+.texConc4 {
+@include Grids (1, 6, 1, 3);
+align-self: center;
+font-size: 1.60rem;
+text-align: justify;
+padding-left: 2.3125rem;
+}
+
+/* Separador */
+.Conc5,.imgConc5,.texConc5 {
+    @include Grids (1, 4, 1, 3);
+    justify-self: center;
+    margin: .625rem;
+    color: white;
+}
+.Conc5 {
+    font-size: 1.70rem;
+}
+.imgConc5 {
+    align-self: end;
+}
+.texConc5 {
+@include Grids (4, 9, 1, 3);
+    align-self: center;
+    font-size: 1.60rem;
+    text-align: justify;
+    padding-right: 2.3125rem;
+}
+
+/* Separador */
+.Conc6,.imgConc6,.texConc6 {
+@include Grids (6, 9, 1, 3);
+justify-self: center;
+margin: .625rem;
+color: white;
+}
+.Conc6 {
+font-size: 1.70rem;
+}
+.imgConc6 {
+align-self: end;
+}
+.texConc6 {
+@include Grids (1, 6, 1, 3);
+align-self: center;
+font-size: 1.60rem;
+text-align: justify;
+padding-left: 2.3125rem;
+}

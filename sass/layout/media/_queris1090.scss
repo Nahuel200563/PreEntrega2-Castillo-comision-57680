@@ -1,0 +1,41 @@
+
+@media (max-width:1090px) { 
+        
+    .textoInicio h1 {
+            font-size: 5.25rem;
+    }
+
+    .textoInicio {
+            display: flex;
+    }
+
+    .Taylor-estrella  {
+            width: 26.6875rem; 
+            height: 16.5625rem ;
+    }
+
+    .tituloTaylor {
+            counter-reset: a;
+    }  
+
+    .videoTaylor div h2 {
+            font-size: 2rem;
+    }
+
+    .videoTaylor div p {
+            font-size: 1.25rem;
+    }
+
+    .cuadrado {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: auto;
+            justify-items: center;
+            align-items: center;
+            padding: 1rem;
+            text-align: center;
+    }
+
+
+}

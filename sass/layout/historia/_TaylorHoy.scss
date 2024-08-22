@@ -1,0 +1,28 @@
+.HistoriaTres {
+    display: grid;
+    grid-template-columns:repeat(7 ,10.5rem);
+    grid-template-rows:repeat(3 ,10.5rem);
+    background-color: $ColorFondo;
+    justify-content: center;
+
+    p {
+        @include Grids (1, 6, 1, 4) ;
+        color: rgb(255, 255, 255);
+        font-size: 1.40rem;
+        text-align: justify;
+        padding-right: 4.25rem;
+        align-self: center;
+        justify-self: center;
+    }
+    img {
+        @include Grids (6, 8, 1, 4);
+        align-self: center;
+        justify-self: center;
+    }
+}
+
+
+
+// .HistoriaTres
+// .textoTresHistoria p
+// .img1989Dos img
