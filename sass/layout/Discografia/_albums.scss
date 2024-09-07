@@ -1,10 +1,12 @@
 .TituloDisc {
     @include estilosDeTexto (white, flex, center, center, 50vh, none, 3.5rem, none , 1.25rem) ;
-    background-color: $ColorFondo;
-
+    border-radius: .625rem;
+    text-shadow: 3px 3px  black;
+    padding-left: 50%;
+    font-size: 4rem;
 }
 
-.disc1-2 {
+.disc1-2, .disc3-4, .disc5-6 , .disc7-8,  .disc9-10 {
     display: grid;
     background-color: $ColorFondo;
     margin: 1.25rem;
@@ -14,13 +16,20 @@
     justify-content: center;
 }
 
-.textDiscUno, .textDiscDos {
-    font-size: 1.60rem;
+span {
+    display: block;
+    font-size: 1.2em;
+    padding-bottom: 1rem;
+    text-shadow: 2px 2px  black;
+}
+
+.textDiscUno, .textDiscDos, .textDiscTres, .textDiscCua, .textDiscCin, .textDiscSei, .textDiscSie, .textDiscOch, .textDiscNue, .textDiscDie   {
+    font-size: 1.50rem;
     align-self: center;
     text-align: center;
     color: white;
 }
-.imgDiscUno, .imgDiscDos {
+.imgDiscUno, .imgDiscDos, .imgDiscTres, .imgDiscCua , .imgDiscCin, .imgDiscSei,.imgDiscSie, .imgDiscOch ,.imgDiscNue, .imgDiscDie  {
     align-self: center;
     justify-self: end;
 }
@@ -39,26 +48,6 @@
     @include Grids (5, 7, 1, 3);
 }
 // separador
-.disc3-4 {
-    display: grid;
-    background-color: $ColorFondo;
-    margin: 1.25rem;
-    border-radius: 20px 20px 20px 20px;
-    grid-template-columns: repeat(8 ,9.53rem);
-    grid-template-rows: repeat(2 ,11rem);
-    justify-content: center;
-}
-
-.textDiscTres, .textDiscCua {
-    font-size: 1.60rem;
-    align-self: center;
-    text-align: center;
-    color: white;
-}
-.imgDiscTres, .imgDiscCua {
-    align-self: center;
-    justify-self: end;
-}
 .textDiscTres {
     @include Grids (1, 3, 1, 3);
     padding-right: .3125rem;
@@ -75,26 +64,7 @@
 }
 
 // separador
-.disc5-6 {
-    display: grid;
-    background-color: $ColorFondo;
-    margin: 1.25rem;
-    border-radius: 20px 20px 20px 20px;
-    grid-template-columns: repeat(8 ,9.53rem);
-    grid-template-rows: repeat(2 ,11rem);
-    justify-content: center;
-}
 
-.textDiscCin, .textDiscSei {
-    font-size: 1.60rem;
-    align-self: center;
-    text-align: center;
-    color: white;
-}
-.imgDiscCin, .imgDiscSei {
-    align-self: center;
-    justify-self: end;
-}
 .textDiscCin {
     @include Grids (1, 3, 1, 3);
     padding-right: .3125rem;
@@ -111,26 +81,6 @@
 }
 
 // separador
-.disc7-8 {
-    display: grid;
-    background-color:$ColorFondo;
-    margin: 1.25rem;
-    border-radius: 20px 20px 20px 20px;
-    grid-template-columns: repeat(8 ,9.53rem);
-    grid-template-rows: repeat(2 ,11rem);
-    justify-content: center;
-}
-
-.textDiscSie, .textDiscOch {
-    font-size: 1.60rem;
-    align-self: center;
-    text-align: center;
-    color: white;
-}
-.imgDiscSie, .imgDiscOch {
-    align-self: center;
-    justify-self: end;
-}
 .textDiscSie {
     @include Grids (1, 3, 1, 3);
     padding-right: .3125rem;
@@ -147,26 +97,6 @@
 }
 
 // separador
-.disc9-10 {
-    display: grid;
-    background-color: $ColorFondo;
-    margin: 1.25rem;
-    border-radius: 20px 20px 20px 20px;
-    grid-template-columns: repeat(8 ,9.53rem);
-    grid-template-rows: repeat(2 ,11rem);
-    justify-content: center;
-}
-
-.textDiscNue, .textDiscDie {
-    font-size: 1.60rem;
-    align-self: center;
-    text-align: center;
-    color: white;
-}
-.imgDiscNue, .imgDiscDie {
-    align-self: center;
-    justify-self: end;
-}
 .textDiscNue {
     @include Grids (1, 3, 1, 3);
     padding-right: .3125rem;
@@ -194,7 +124,7 @@
 }
 
 .textDiscOnc {
-    @include Grids (3, 5, 1, 3);
+    @include Grids (2, 6, 1, 3);
     padding-left: .3125rem;
     font-size: 1.60rem;
     align-self: center;
@@ -203,7 +133,7 @@
     color: white;
 }
 .imgDiscOnc {
-    @include Grids (5, 7, 1, 3);
+    @include Grids (5, 8, 1, 3);
     align-self: center;
     justify-self: end;
     padding-left: .3125rem;

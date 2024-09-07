@@ -4,7 +4,7 @@
 @import "./utilities/keyframe";
 
 //bases//
-
+@import "./base/fuentes";
 @import "./base/reset" ;
 
 //layout//
@@ -41,4 +41,8 @@
     @import "./layout/media/PQueris1020";
     @import "./layout/media/PQueris865";
     @import "./layout/media/PQueris450";
-    @import "./layout/media/PQueris420"
+    @import "./layout/media/PQueris420";
+    @import "./layout/media/CQueris1220";
+    @import "./layout/media/CQueris1180";
+    @import "./layout/media/CQueris790";
+    @import "./layout/media/CQueris430";

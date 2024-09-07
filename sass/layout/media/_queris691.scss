@@ -19,7 +19,6 @@
     .circulo1 {
             width: 15.125rem;
             height: 15.125rem;
-            padding-bottom: .3125rem;
     }
 
     .circulo2 {
@@ -28,14 +27,24 @@
     }
 
     .videoTaylor {
-            flex-direction: column;
+        width: 100%vh;
+        flex-direction: column;
+        align-items: center;
+
+        
+        div iframe{
+            width:"760"; 
+            height:"515";
+            justify-self: center;
+
+        } 
             p{
-                padding-bottom: 2.25rem;
+                padding-bottom: 6.25rem;
             }
     }
 
     .cuadrado {
-        padding-top: 3.875rem;
+        padding-top: 7.875rem;
     } 
 
 .textoInicio h1 {

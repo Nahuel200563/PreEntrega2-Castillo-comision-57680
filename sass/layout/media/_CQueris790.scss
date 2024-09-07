@@ -1,0 +1,39 @@
+@media (max-width: 790px) {
+
+    .tituloConcierto {
+        font-size: 3rem;
+        place-content: center;
+        padding: 0;
+    } 
+
+    .texConc1,.texConc3,.texConc5, .texConc2,.texConc4,.texConc6 {
+        font-size: 1.4375rem ;
+        padding: .625rem;
+    }
+
+    .secConc1,.secConc2, .secConc3, .secConc4, .secConc5, .secConc6  {
+        grid-template-columns: repeat(2 ,9.53rem);
+        grid-template-rows: repeat(4 ,11rem);
+        place-content: center;
+}
+.Conc1,.imgConc1,.Conc3,.imgConc3,.Conc5,.imgConc5 {
+    @include Grids (1, 3, 1, 3);
+    text-align: center;
+}
+
+.texConc1,.texConc3,.texConc5 {
+    @include Grids (1, 3, 3, 5);
+    padding-right:0;
+}
+
+.Conc2,.imgConc2,.Conc4,.imgConc4,.Conc6,.imgConc6 {
+    @include Grids (1, 3, 1, 3);
+    text-align: center;
+}
+
+.texConc2,.texConc4,.texConc6 {
+    @include Grids (1, 3, 3, 5);
+    padding-left:0;
+}
+
+}

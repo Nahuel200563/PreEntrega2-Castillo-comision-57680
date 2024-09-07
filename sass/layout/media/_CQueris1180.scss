@@ -1,0 +1,26 @@
+@media (max-width: 1180px) {
+
+    .secConc1,.secConc2, .secConc3, .secConc4, .secConc5, .secConc6  {
+        grid-template-columns: repeat(5 ,9.53rem);
+        grid-template-rows: repeat(2 ,11rem);
+        place-content: center;
+}
+
+    .Conc1,.imgConc1,.Conc3,.imgConc3,.Conc5,.imgConc5 {
+        @include Grids (1, 3, 1, 3);
+    }
+
+    .texConc1,.texConc3,.texConc5 {
+        @include Grids (3, 6, 1, 3);
+        padding-right:0;
+    }
+
+    .Conc2,.imgConc2,.Conc4,.imgConc4,.Conc6,.imgConc6 {
+        @include Grids (4, 6, 1, 3);
+    }
+
+    .texConc2,.texConc4,.texConc6 {
+        @include Grids (1, 4, 1, 3);
+        padding-left:0;
+    }
+}

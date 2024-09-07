@@ -13,6 +13,11 @@
         border-radius: 50%;
         -webkit-animation: rotate-center 10s ease-in-out infinite both;
         animation: rotate-center 10s ease-in-out infinite both;
+        
+        &:hover{
+                transition: box-shadow 0.3s ease;
+                box-shadow: 0 0 30px rgb(255, 255, 255);
+        }
 }
 
 .circulo2  {
@@ -22,6 +27,11 @@
         border-radius: 50%;
         -webkit-animation: rotate-center 10s ease-in-out infinite both;
         animation: rotate-center 10s ease-in-out infinite both;
+        
+        &:hover{
+                transition: box-shadow 0.3s ease;
+                box-shadow: 0 0 30px rgb(255, 255, 255);
+        }
 }
 
 
