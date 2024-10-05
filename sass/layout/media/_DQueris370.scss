@@ -1,0 +1,10 @@
+@media (max-width: 370px) {
+    .imgDiscUno, .imgDiscDos, .imgDiscTres, .imgDiscCua, .imgDiscCin, .imgDiscSei, .imgDiscSie, .imgDiscOch, .imgDiscNue, .imgDiscDie {
+        img {
+            max-width: 100%; 
+            height: auto; 
+            margin: 0 auto; 
+            display: block; 
+        }
+    }
+}

@@ -1,6 +1,9 @@
 
 @media (max-width:801px) {
-
+        body {
+                overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal */
+            }
+        
     .videoTaylor div iframe {
             padding-top: .625rem;
             width: 31.25rem;
@@ -12,8 +15,8 @@
     }
 
     .Taylor-estrella  {
-            width: 21.6875rem; 
-            height: 11.5625rem ;
+            width: 15.5625rem; 
+            height: 15.5625rem ;
     }
 
     .encabezadoIndex li a {
@@ -22,7 +25,7 @@
 
     .cuadrado {
             display: grid;
-            grid-template-columns: repeat(4,12.5rem);
+            grid-template-columns: repeat(2,12.5rem);
             grid-template-rows: repeat(4,12.5rem);
             align-content: center;
             justify-content: center;
@@ -35,44 +38,47 @@
 
     .cuadrado h2 {
             font-size: 2.125rem;
-            grid-column-start: 2;
-            grid-column-end: 4; 
+            grid-column-start: 1;
+            grid-column-end: 3; 
             grid-row-start: 1 ;
             grid-row-end: 2 ;
     }
 
     .videoUno {
-            width: 60%; 
-            max-width: 12rem; 
-            margin: 1rem auto; 
-            display: block;
-            height: auto;
-            grid-column-start: 2;
-            grid-column-end: 4; 
-            grid-row-start: 3 ;
-            grid-row-end: 4 ;
+                width: 330px; 
+                height: 300px;
+                margin: 1rem auto; 
+                display: block;
+                height: auto;
+                grid-column-start: 1;
+                grid-column-end: 3; 
+                grid-row-start: 3 ;
+                grid-row-end: 4 ;
+                padding: 0;
     }
     
     .videoDos {
-            width: 60%;
-            max-width: 12rem;
+        width: 330px; 
+        height: 300px;
             margin: 1rem auto; 
             display: block;
             height: auto;
             grid-row-start: 4;
             grid-row-end: 5; 
-            grid-column-start: 2;
-            grid-column-end: 4; 
+            grid-column-start: 1;
+            grid-column-end: 3; 
+            padding: 0;
     }
     
     .videoTres {
-            width: 60%; 
-            max-width: 12rem; 
+        width: 330px; 
+        height: 300px;
             margin: 1rem auto; 
             display: block;
             height: auto;
-            grid-column-start: 2;
-            grid-column-end: 4; 
+            grid-column-start: 1;
+            grid-column-end: 3; 
+            padding: 0;
     }
 
     .videoTaylor div iframe {

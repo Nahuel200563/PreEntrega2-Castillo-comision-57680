@@ -2,9 +2,15 @@
 @media (max-width:691px) {
 
     .Taylor-estrella {
-            width: 11.6875rem; 
-            height: 8.5625rem ;
+        display: block; 
+        margin: 0 auto; 
+        justify-self: center; 
+        align-self: center;   
+        width: 18.6875rem;
+        height: 18.6875rem;
+        padding-left: 0; 
     }
+    
 
     .textoInicio h1 {
             font-size: 3.25rem;
@@ -15,7 +21,7 @@
             flex-direction: column; 
             padding: 2.3125rem;
     }
-
+    
     .circulo1 {
             width: 15.125rem;
             height: 15.125rem;
@@ -27,24 +33,33 @@
     }
 
     .videoTaylor {
-        width: 100%vh;
+        height: 31.5rem ;
         flex-direction: column;
-        align-items: center;
+        padding: 0;
+        margin: 0 auto;
+        justify-items: center;
 
-        
-        div iframe{
-            width:"760"; 
-            height:"515";
-            justify-self: center;
-
-        } 
+            div iframe{
+            display: block;
+            width:760; 
+            height:515;
+            justify-content: center; 
+            align-items: center;
+                } 
             p{
                 padding-bottom: 6.25rem;
+                margin: 0;
             }
     }
 
+
+
+
+
+
+
     .cuadrado {
-        padding-top: 7.875rem;
+        padding:0
     } 
 
 .textoInicio h1 {
@@ -66,11 +81,15 @@
     display: block;
 }
 .Taylor-estrella {
+    width: 16.6875rem; 
+    height: 16.6875rem;
     display: block; 
-    margin-left: 30%; 
+    margin: 0 auto; 
     justify-self: center; 
-    align-self: center; 
-    width: 18.6875rem; 
-    height: 13.5625rem ;
+    align-self: center;   
+    padding-left: 0; 
+    
+    
+    
     }
 }

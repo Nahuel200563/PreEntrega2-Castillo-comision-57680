@@ -4,21 +4,21 @@
     border-top-right-radius: 50px;
     display: flex;
     background-color: $ColorFondo;
-    align-items: center
+    width: 100%; 
+    align-items: center;
+    overflow-x: hidden; 
+}
 
     iframe {
         padding-left: 40px;
     }
     div {
-        iframe {
-            padding-left: 40px;
-        }
+        align-self: start;
         h2 {
-            padding-top: 40px;
-            font-size: 2.5rem;
+            padding-top: 1.875rem;
+            font-size: 3.5rem;
             color: white;
             align-items: center;
-            width: 100%;
             justify-content: center;
             text-align: center;
             padding-bottom: 1.25rem;
@@ -30,5 +30,3 @@
             
         }
     } 
-    
-}

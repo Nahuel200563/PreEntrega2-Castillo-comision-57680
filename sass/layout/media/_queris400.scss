@@ -1,9 +1,13 @@
 
 @media (max-width:400px) {
 
+.taylorGrande  a {
+        font-size: 1.125rem;
+}
+
     .Taylor-estrella {
             width: 16.6875rem; 
-            height: 11.5625rem ;
+            height: 16.6875rem ;
     }
 
         .videoTaylor div iframe {
@@ -27,19 +31,21 @@
     .videoUno {
             grid-column-start: 1;
             grid-column-end: 2; 
-            width: 60%; 
-            max-width: 12rem; 
-            
+            width: 180px; 
+            height: 150px;
     }
-    
     .videoDos { 
             grid-column-start: 1;
             grid-column-end: 2; 
+            width: 180px; 
+            height: 150px;
     }
     
     .videoTres {
             grid-column-start: 1;
             grid-column-end: 2; 
+            width: 180px; 
+            height: 150px;
     }
 
     .videoTaylor div iframe {
@@ -55,8 +61,12 @@
             margin: 0;
     }
     .videoTaylor div p {
-            font-size: .875rem;
+            font-size: 1.25rem;
             padding-right: 2.3125rem;
+            padding-left: 35px;
     }
 
+    .videoTaylor {
+        height: 600px;
+    }
 }

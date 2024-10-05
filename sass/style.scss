@@ -26,7 +26,13 @@
 //componentes//
 
 //media queris//
+    @import "./layout/media/Header";
+
+    @import "./layout/media/queirs1245";
+    @import "./layout/media/queirs1160";
     @import "./layout/media/queris1090";
+    @import "./layout/media/queris938";
+    @import "./layout/media/queris863";
     @import "./layout/media/queris801";
     @import "./layout/media/queris691";
     @import "./layout/media/queris400";
@@ -36,6 +42,7 @@
     @import "./layout/media/HQueris850";
     @import "./layout/media/HQueris690";
     @import "./layout/media/HQueris505";
+    @import "./layout/media/HQueris430";
     @import "./layout/media/HQueris360";
     @import "./layout/media/PQueris1200";
     @import "./layout/media/PQueris1020";
@@ -50,3 +57,4 @@
     @import "./layout/media/DQueris920";
     @import "./layout/media/DQueris800";
     @import "./layout/media/DQueris500";
+    @import "./layout/media/DQueris370";

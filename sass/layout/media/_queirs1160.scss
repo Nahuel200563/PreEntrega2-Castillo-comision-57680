@@ -1,0 +1,19 @@
+@media (max-width:1160px) {
+    .videoTaylor {
+        overflow-x: hidden; 
+    }
+        iframe {
+            padding-left: 40px;
+        }
+        div {
+            align-self: start;
+            padding-top: 1.325rem ;
+            h2 {
+                font-size: 2.2rem;
+            } 
+            p { 
+                font-size: 1.5rem;
+            }
+        
+    } 
+} 

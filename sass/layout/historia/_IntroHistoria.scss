@@ -20,11 +20,12 @@
     p {
         @include Grids (4, 8, 1, 4);
         color: white;
-        justify-self: center;
-        align-self: center;
         font-size: 1.25rem;
-        padding-top: 4rem;
         text-align: justify;
+        padding: 0  ;
+        margin: 0 auto;
+        align-items: start;
+        padding-top: 4.875rem;
     }
 }
 
